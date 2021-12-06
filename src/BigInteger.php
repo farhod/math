@@ -485,6 +485,7 @@ final class BigInteger extends BigNumber implements \Serializable
 		return (int)$this->value;
 	}
 
+
 	public function toInt()
 	{
 		if ($this->isLessThan(~PHP_INT_MAX) || $this->isGreaterThan(PHP_INT_MAX)) {
